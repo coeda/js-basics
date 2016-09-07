@@ -41,4 +41,10 @@ var canDrive = person.age > 16;
 
  var dog = new Object();
  dog.name = "Spot";
+ dog.bark = function bark(name)
+ {
+ 	name = dog.name;
+ 	console.log(name + " says WOOF!");
+ }
+
  
