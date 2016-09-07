@@ -23,7 +23,6 @@ var canDrive = person.age > 16;
 
  function greet(name)
  {
- 	name = 'Dev League';
  	console.log('Hello, my name is ' + name);
 
  }
