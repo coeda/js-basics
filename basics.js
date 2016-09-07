@@ -39,12 +39,13 @@ var canDrive = person.age > 16;
  * It should also have a name attribute with the value of 'Spot'
  */
 
- var dog = new Object();
- dog.name = 'Spot';
- dog.bark = function bark(name)
- {
+ var dog = {
+ name: 'Spot',
+ bark: function(name){
  	name = dog.name;
  	console.log(name + ' says WOOF!');
  }
+};
+ 
 
  
