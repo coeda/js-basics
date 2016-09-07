@@ -1,12 +1,12 @@
 /* Create a `myName` variable and assign it a String value */
-var myName = "Casey";
+var myName = 'Casey';
 
 /* Create a `person` variable and give it 2 properties,
  * `name`, assign it the same name as before,
  * as well as an `age` (number);
  */
 
-var person = {name:"Casey", age:24};
+var person = {name:'Casey', age:24};
 
 
 /* Create a variable called `canDrive`,
@@ -23,8 +23,8 @@ var canDrive = person.age > 16;
 
  function greet(name)
  {
- 	name = "Dev League";
- 	console.log("Hello, my name is " + name);
+ 	name = 'Dev League';
+ 	console.log('Hello, my name is ' + name);
 
  }
 
@@ -32,7 +32,7 @@ var canDrive = person.age > 16;
  * (there are 6 different data types);
  */
 
- var dataTypes = ["String", 1, true, null, undefined, person];
+ var dataTypes = ['String', 1, true, null, undefined, person];
 
 /* Create a `dog` object
  * it should have a `bark` function that makes your dog bark!
@@ -40,11 +40,11 @@ var canDrive = person.age > 16;
  */
 
  var dog = new Object();
- dog.name = "Spot";
+ dog.name = 'Spot';
  dog.bark = function bark(name)
  {
  	name = dog.name;
- 	console.log(name + " says WOOF!");
+ 	console.log(name + ' says WOOF!');
  }
 
  
